@@ -1,12 +1,10 @@
 
-.container {
 
-}
 nav {
   position: relative;
   height: 30px;
   background: white;
-  max-width: auto;
+  max-width: 100%;
   font-size: 13px;
   font-family: font-family: 'Raleway', sans-serif;
 }
@@ -38,6 +36,36 @@ nav {
   padding-right: 28px;
   color: gray;
 }
+
+.container img{
+  height: 350px;
+  width: 100%;
+}
+
+.Simple {
+  position: relative;
+  top: -275px;
+  left: 500px;
+  color: white;
+  font-family: font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  text-shadow: 1px 1px 2px black;
+
+}
+
+.simple p {
+  position: relative;
+  line-height: 10px;
+  text-align: center;
+  right: 500px;
+  max-width: 100%;
+}
+
+.greenbox {
+  height: 50px;
+  width: 50px;
+}
+
 
 a {
   text-decoration: none;
