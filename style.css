@@ -1,0 +1,45 @@
+
+.container {
+
+}
+nav {
+  position: relative;
+  height: 30px;
+  background: white;
+  max-width: auto;
+  font-size: 13px;
+  font-family: font-family: 'Raleway', sans-serif;
+}
+
+.logo {
+  position: relative;
+  top: 7px;
+  padding-left: 10px;
+  padding-right: 28px;
+  color: gray;
+}
+
+.Home{
+  position: relative;
+  top: 7px;
+  padding-right: 28px;
+  color: gray;
+}
+
+.Pricing {
+  position: relative;
+  top: 7px;
+  padding-right: 28px;
+}
+
+.Contact {
+  position: relative;
+  top: 7px;
+  padding-right: 28px;
+  color: gray;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
