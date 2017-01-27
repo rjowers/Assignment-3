@@ -63,11 +63,20 @@ nav {
   right: 500px;
   max-width: 100%;
 }
+.three-boxes {
+  display: table;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  bottom: 100px;
+}
 
 .green-box {
-background: green;
+background: #60932E;
 height: 175px;
 width: 250px;
+position: relative;
+display: table-cell;
 }
 
 .green-box ul{
@@ -99,9 +108,10 @@ li.Per{
 }
 
 .blue-box {
-background: blue;
+background: #28517A;
 height: 175px;
 width: 250px;
+display: table-cell;
 }
 
 .blue-box ul{
@@ -112,6 +122,7 @@ width: 250px;
 background: black;
 height: 175px;
 width: 250px;
+display: table-cell;
 }
 
 .black-box ul{
