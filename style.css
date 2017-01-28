@@ -301,6 +301,56 @@ border-color: #EDEDED;
   font-weight: bold;
   }
 
+.tables {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 80px;
+  position: relative;
+  top: -32px;
+}
+
+.first-head th {
+  position: relative;
+  bottom: 15px;
+  text-align: left;
+  word-spacing: 5px;
+  letter-spacing: 5px;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+.first-body td {
+  width: 350px;
+  padding-right: 60px;
+  font-size: 14px;
+  color: #5F6B72;
+  line-height: 23px;
+  vertical-align: text-top;
+}
+.second-head th {
+  position: relative;
+  top: 35px;
+  text-align: left;
+  word-spacing: 5px;
+  letter-spacing: 5px;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+.second-body td {
+  position: relative;
+  top: 53px;
+  width: 350px;
+  padding-right: 60px;
+  font-size: 14px;
+  color: #5F6B72;
+  line-height: 23px;
+  vertical-align: text-top;
+}
+
+
+
+
 a {
   text-decoration: none;
   color: inherit;
