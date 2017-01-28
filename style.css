@@ -348,7 +348,26 @@ border-color: #EDEDED;
   vertical-align: text-top;
 }
 
+footer {
+  position: relative;
+  top: 80px;
+  background-color: black;
+  height: 60px;
+}
 
+.footerwords {
+  position: relative;
+  top: 35%;
+  color: #969696;
+  text-align: center;
+  font-size: 14px;
+
+}
+
+.footerwords a {
+  color: white;
+  text-decoration: underline;
+}
 
 
 a {
