@@ -14,7 +14,7 @@ nav {
   top: 7px;
   padding-left: 10px;
   padding-right: 28px;
-  color: gray;
+  color: #424951;
 }
 
 .Home{
@@ -38,8 +38,11 @@ nav {
 }
 
 .tree-box img{
-  height: 350px;
+  position: relative;
+  height: 328px;
   width: 100%;
+  object-fit: cover;
+  object-position: 0px -50px;
 }
 
 
@@ -47,7 +50,7 @@ nav {
 
 .Simple {
   position: relative;
-  top: -275px;
+  top: -230px;
   left: 500px;
   color: white;
   font-family: font-family: 'Roboto', sans-serif;
@@ -138,7 +141,7 @@ display: table;
 margin: auto;
 position: relative;
 bottom: 100px;
-right: 7px;
+right: 12.5px;
 font-size: 14px;
 }
 
@@ -147,6 +150,7 @@ display: table-cell;
 position: relative;
 padding: 0;
 border-color: #EDEDED;
+right: 1px;
 }
 
 
@@ -166,9 +170,7 @@ border-color: #EDEDED;
   display: table-cell;
   position: relative;
   padding: 0;
-  left: 8px;
-
-
+  left: 12.5px;
 }
 
 .Free2 li {
@@ -187,7 +189,7 @@ border-color: #EDEDED;
   display: table-cell;
   position: relative;
   padding: 0;
-  left: 15px;
+  left: 25px;
 }
 
 .Free3 li {
@@ -214,8 +216,11 @@ border-color: #EDEDED;
   border-style: solid;
   border-width: 1px;
   border-color: #E8E8E8;
+  border-top: none;
   height: 75px;
   width: 250px;
+  position: relative;
+  left: 1px;
 }
 
 .choose1 {
@@ -241,10 +246,11 @@ border-color: #EDEDED;
   border-style: solid;
   border-width: 1px;
   border-color: #E8E8E8;
+  border-top: none;
   height: 75px;
   width: 250px;
   position: relative;
-  left: 15px;
+  left: 14px;
 }
 
 .choose2 {
@@ -270,10 +276,11 @@ border-color: #EDEDED;
   border-style: solid;
   border-width: 1px;
   border-color: #E8E8E8;
+  border-top: none;
   height: 75px;
   width: 250px;
   position: relative;
-  left: 30px;
+  left: 27px;
 }
 
 .choose3 {
